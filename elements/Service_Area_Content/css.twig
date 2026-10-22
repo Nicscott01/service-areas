@@ -1,0 +1,10 @@
+%%SELECTOR%% {
+  max-width: {{ design.layout.max_width.style|default('100%') }};
+  {{ macros.spacing_padding_all(design.layout.padding) }}
+}
+%%SELECTOR%% .csa-heading { {{ macros.typography(design.heading.typography, globalSettings) }} }
+%%SELECTOR%% .csa-body { {{ macros.typography(design.body.typography, globalSettings) }} }
+%%SELECTOR%% .csa-faq summary { {{ macros.typography(design.faq.typography, globalSettings) }} }
+%%SELECTOR%% .csa-contact h2 { {{ macros.typography(design.contact.typography, globalSettings) }} }
+%%SELECTOR%% .csa-booking { {{ macros.typography(design.button.typography, globalSettings) }} }
+%%SELECTOR%% .csa-faqs, %%SELECTOR%% .csa-contact { margin-top: {{ design.layout.section_gap.style|default('2.5em') }}; }

@@ -1,0 +1,14 @@
+.creare-service-area-content { min-width: 0; width: 100%; }
+.creare-service-area-content .csa-document { min-width: 0; overflow-wrap: anywhere; text-align: left; }
+.creare-service-area-content .csa-heading { margin-block: 0 1em; }
+.creare-service-area-content .csa-body > :first-child { margin-top: 0; }
+.creare-service-area-content .csa-body h2 { margin-top: 1.6em; }
+.creare-service-area-content .csa-body h3 { margin-top: 1.3em; }
+.creare-service-area-content .csa-body p, .creare-service-area-content .csa-body ul, .creare-service-area-content .csa-body ol { margin-bottom: 1em; }
+.creare-service-area-content .csa-body li { margin-bottom: .4em; }
+.creare-service-area-content .csa-faq { border-bottom: 1px solid currentColor; padding-block: 1em; }
+.creare-service-area-content .csa-faq summary { cursor: pointer; font-weight: 600; }
+.creare-service-area-content .csa-faq summary:focus-visible, .creare-service-area-content .csa-actions a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.creare-service-area-content .csa-faq-answer { padding-top: .75em; }
+.creare-service-area-content .csa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1em; }
+.creare-service-area-content .csa-booking { display: inline-flex; padding: .8em 1.2em; border: 1px solid currentColor; text-decoration: none; }

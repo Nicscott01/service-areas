@@ -1,0 +1,13 @@
+.csa-document { min-width: 0; overflow-wrap: anywhere; text-align: left; }
+.csa-document .csa-body > :first-child { margin-top: 0; }
+.csa-document .csa-body h2 { margin-top: 1.6em; }
+.csa-document .csa-body h3 { margin-top: 1.3em; }
+.csa-document .csa-body p, .csa-document .csa-body ul, .csa-document .csa-body ol { margin-bottom: 1em; }
+.csa-document .csa-body li { margin-bottom: .4em; }
+.csa-document .csa-faqs, .csa-document .csa-contact { margin-top: 2.5em; }
+.csa-faq { border-bottom: 1px solid currentColor; padding-block: 1em; }
+.csa-faq summary { cursor: pointer; font-weight: 600; }
+.csa-faq summary:focus-visible, .csa-actions a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.csa-faq-answer { padding-top: .75em; }
+.csa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1em; }
+.csa-booking { display: inline-flex; padding: .8em 1.2em; border: 1px solid currentColor; text-decoration: none; }
